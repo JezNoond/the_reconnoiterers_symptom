@@ -1,0 +1,163 @@
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+body, html {
+	background-color: #FFFFFF;
+	height: 100%;
+	margin: 0;
+}
+
+div.bg {
+	background-image: url("../images/TRS_PARIS_023_MAY_18_1074.jpg");
+	height: 60%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#wrapper {
+	background-color:#FFFFFF;
+	margin: auto;
+	border-style: none;
+	width: 100%;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+#image {
+	background-color:#FFFFFF;
+	padding: 0px 0px 0px 0px;
+	text-align: justify;
+}
+
+img {
+	border-color: #333333;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#image_text {
+	background-color:#F2F2F2;
+	padding: 0% 40% 0% 10%;
+	color: #0e0e0e;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: regular;
+	letter-spacing: 0.8px;
+	line-height: 1.6;
+	text-align: justify;
+	text-indent: 0px;
+	word-spacing: 1px;
+}
+
+#info {
+	background-color:#FFFFFF;
+	padding: 0% 40% 0% 10%;
+	color: #0e0e0e;
+	font-family: Tahoma;
+	font-size: 28px;
+	font-weight: regular;
+	letter-spacing: 3px;
+	line-height: 2;
+	text-align: left;
+	text-indent: 0px;
+	word-spacing: 1px;
+}
+
+#text {
+	background-color:#FFFFFF;
+	padding: 0% 40% 0% 10%;
+	color: #0e0e0e;
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: regular;
+	letter-spacing: 0.8px;
+	line-height: 1.6;
+	text-align: justify;
+	text-indent: 0px;
+	word-spacing: 1px;
+}
+
+#footer {
+	background-color:#FFFFFF;
+	padding: 10px 40% 30px 10%;
+	color: #808080;
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: regular;
+	letter-spacing: 0.8px;
+	line-height: 1.6;
+	text-align: justify;
+	text-indent: 0px;
+	word-spacing: 1px;
+}
+
+button.accordion {
+	background-color:#FFFFFF;
+	padding: 0% 40% 0% 10%;
+	border: none;
+	color: #808080;
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: regular;
+	letter-spacing: 0.8px;
+	line-height: 2.0;
+	outline: none;
+	text-align: left;
+	text-indent: 0px;
+	width: 100%;
+	word-spacing: 1px;
+	cursor: pointer;
+}
+
+button.accordion.active {
+	background-color: #FFFFFF;
+	color: #0e0e0e;
+	font-weight: regular;
+}
+
+button.accordion:hover {
+	background-color: #FFFFFF;
+	color: #0e0e0e;
+	font-weight: regular;
+}
+
+div.section {
+	background-color:#FFFFFF;
+	padding: 0px 0px 0px 0px;
+}
+
+div.panel {
+	background-color: #FFFFFF;
+	max-height: 0;
+	padding: 0px 0px 0px 0px;
+	transition: 2.0s ease-in-out;
+	opacity: 1.0;
+	overflow: hidden;
+	width: 100%;
+}
+
+div.panel.show {
+	max-height: 1365px;
+	opacity: 1;
+}
