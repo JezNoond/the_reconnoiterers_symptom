@@ -1,16 +1,16 @@
 body {
-	background-color: #6666CC;
+	background-color: #000000;
 	margin: 0;
 }
 
 #wrapper {
-	background-color:#6666CC;
+	background-color:#000000;
 	margin: auto;
 	width: 100%;
 }
 
 #banner {
-	background-color:#6666CC;
+	background-color:#000000;
 	padding: 0px 0px 0px 0px;
 	color: #000000;
 	font-family: Tahoma;
